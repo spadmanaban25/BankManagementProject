@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+
+
+
+.navbar {
+	overflow: hidden;
+	background-color: #265196;
+	position: sticky;
+	position: -webkit-sticky;
+	top: 0;
+}
+
+.navbar a {
+	float: left;
+	display: block;
+	color: white;
+	text-align: center;
+	padding-top: 55px;
+	padding-bottom: 10px;
+	font-size: 30px;
+}
+
+.navbar a.right {
+	float: right;
+}
+
+.navbar a.active {
+	background-color: #000;
+	color: white;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: show;
+}
