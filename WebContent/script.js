@@ -1,11 +1,3 @@
-/**
- * 
- */
-
-
-//var checkingState = null;
-//var savingsState = null;
-
 
 function showAccountForm() {
 	if (typeof(storage) != null) {
